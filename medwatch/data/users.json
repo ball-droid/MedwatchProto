@@ -4,11 +4,5 @@
         "password": "dokter123",
         "role": "dokter",
         "name": "Dr. Andi Wijaya"
-    },
-    {
-        "username": "pasien1",
-        "password": "pasien123",
-        "role": "pasien",
-        "name": "Budi Santoso"
     }
 ]

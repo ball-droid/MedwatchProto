@@ -93,32 +93,6 @@ class AuthWindow(ctk.CTk):
         )
         self.login_btn.pack(pady=(15, 20), fill="x")
 
-        # Akun demo info
-        demo_frame = ctk.CTkFrame(main_frame, fg_color=("gray85", "gray20"))
-        demo_frame.pack(fill="x", pady=(10, 0))
-
-        demo_title = ctk.CTkLabel(
-            demo_frame,
-            text="Akun Demo:",
-            font=ctk.CTkFont(size=12, weight="bold")
-        )
-        demo_title.pack(pady=(8, 3), anchor="w", padx=10)
-
-        demo_info = ctk.CTkLabel(
-            demo_frame,
-            text="Dokter: dokter1 / dokter123   |   Pasien: pasien1 / pasien123",
-            font=ctk.CTkFont(size=11)
-        )
-        demo_info.pack(pady=(0, 8), padx=10)
-
-        # Copyright
-        copyright_label = ctk.CTkLabel(
-            main_frame,
-            text="© 2024 MedWatch Healthcare System",
-            font=ctk.CTkFont(size=10)
-        )
-        copyright_label.pack(side="bottom", pady=10)
-
     def center_window(self):
         """Center window di layar"""
         self.update_idletasks()
