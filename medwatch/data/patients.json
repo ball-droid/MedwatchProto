@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Budi Santoso",
+        "age": 35,
+        "gender": "Laki-laki",
+        "phone": "08123456789",
+        "blood_type": "A+",
+        "address": "Jl. Merdeka No. 123, Jakarta",
+        "username": "pasien1"
+    },
+    {
+        "id": 2,
+        "name": "Siti Rahayu",
+        "age": 28,
+        "gender": "Perempuan",
+        "phone": "08234567890",
+        "blood_type": "O+",
+        "address": "Jl. Sudirman No. 45, Bandung",
+        "username": "siti123"
+    }
+]
